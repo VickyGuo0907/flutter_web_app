@@ -32,7 +32,7 @@ jobs:
         with:
           channel: beta # 'dev', 'alpha', default to: 'stable'
       # Check for any formatting issues in the code.
-      - run: flutter format --set-exit-if-changed .
+      #- run: flutter format --set-exit-if-changed .
 
       # Statically analyze the Dart code for any errors.   
       - run: flutter config --enable-web
